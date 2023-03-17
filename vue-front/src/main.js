@@ -13,3 +13,6 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+// createApp(App)
+// .use(store)
+// .mount('#app')

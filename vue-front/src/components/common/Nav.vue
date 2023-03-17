@@ -10,11 +10,14 @@
       <div id="jqxmenu" class="netismenu">			
         <ul id="mega-menu" class="mega-menu" style="visibility: visible; z-index: 9999;">
           <li class="level-1 dc-mega-li">
-            <a href="#" class="dc-mega-icon-alarm dc-mega">종합현황<span class="dc-mega-icon-alarm"></span></a>
+            <a href="#" class="dc-mega-icon-alarm dc-mega">
+              장비현황
+              <span class="dc-mega-icon-alarm"></span>
+            </a>
           </li>
           <li class="level-1 dc-mega-li">
-            <a href="#" class="dc-mega-icon-nms dc-mega">네트워크관리<span class="dc-mega-icon-nms"></span></a>
-            <div class="sub-container mega" style="left: 0px; top: 55px; z-index: 1000;">
+            <a href="#" class="dc-mega-icon-nms dc-mega">회선현황<span class="dc-mega-icon-nms"></span></a>
+            <!-- <div class="sub-container mega" style="left: 0px; top: 55px; z-index: 1000;">
               <ul class="sub">
                 <div class="row" style="width: 668px">
                   <li class="level-2 mega-unit mega-hdr" style="height: 295px">
@@ -25,10 +28,9 @@
                       </li>
                     </ul>
                   </li>
-                  <li></li>
                 </div>
               </ul>
-            </div>
+            </div> -->
           </li>
         </ul>
       </div>
@@ -147,28 +149,5 @@ ul.mega-menu li.mega-hover a,  ul.mega-menu li a:hover
     margin: 0;
     list-style: none;
 }
-ul.mega-menu li .sub {
-    padding: 5px 0px 15px 0px;
-}
-ul.mega-menu li .sub-container {
-    position: absolute;
-    background-color: #fff;
-    margin-left: -3px;
-}
-ul.mega-menu li .sub-container.mega .sub {
-    border: 1px solid #012e47;
-}
-ul.mega-menu li .sub .row {
-    width: 100%;
-    overflow: hidden;
-    clear: both;
-    /* margin: 5px 0px 0px 0px; */
-}
-ul.mega-menu li .sub li.mega-hdr {
-    margin: 0px 0px 0px 5px;
-    border-right: 1px solid #cccccc;
-    float: left;
-    /* background: url(../../lib/megamenu/skins/images/submenuBg.png) no-repeat 0 0; */
-    font-size: 16px;
-}
+
 </style>

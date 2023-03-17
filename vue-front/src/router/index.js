@@ -5,11 +5,19 @@ import App from '@/App'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
-      name: 'App',
-      component: App
+      redirect: '/devStatus'
+    },
+    {
+      path:'/devStatus',
+      component: () => import('../components/main/devStatus.vue')
+    },
+    {
+      path:'/IfStatus',
+      component: () => import('../components/main/IfStatus.vue')
     }
   ]
 })
