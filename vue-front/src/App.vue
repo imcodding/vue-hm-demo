@@ -11,7 +11,8 @@
                           :width="'100%'" :height="'100%'" :orientation="'horizontal'"
                           :panels="[{ size: '50%' }, { size: '50%' }]">
                   <div>
-                      <router-view></router-view>
+                      <!-- <router-view></router-view> -->
+                      <dev-status></dev-status>
                   </div>
                   <div>
                       <span>요약</span>
